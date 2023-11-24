@@ -3,7 +3,6 @@ import os  # required only for reading env variables
 
 
 PRIVATE_KEY: str = os.environ['EMS_PRIVATE_KEY']
-COMPANY_NAME: str = os.environ['EMS_COMPANY']
 
 
 def get_token(company_name):

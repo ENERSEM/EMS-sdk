@@ -11,6 +11,7 @@ from ems_data import get_token, COMPANY_NAME
 SERVER: str = os.environ['EMS_SERVER']  # e.g. 'https://test.enersem.it/'
 UNIT_ID: int = os.environ['EMS_UNIT_ID']
 UNIT_ARKE_KEY: str = os.environ['EMS_UNIT_ARKE_KEY']
+COMPANY_NAME: str = os.environ['EMS_COMPANY']
 
 
 def test_verbose():
