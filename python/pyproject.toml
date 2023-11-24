@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools >= 61.0"]
+requires = ["setuptools >= 61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -26,3 +26,7 @@ test = "ems_data:test_verbose"
 [project.urls]
 Homepage = "https://github.com/ENERSEM/EMS-sdk"
 Repository = "https://github.com/ENERSEM/EMS-sdk"
+
+[tool.setuptools]
+packages.find.exclude = ['test*']
+include-package-data = false
