@@ -13,15 +13,13 @@ license = {text = "MIT License"}
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
+py_modules = ['ems_data']
 dependencies = [
     "cryptography",
     "PyJWT",
     "requests"
 ]
 dynamic = ["version"]
-
-[project.scripts]
-test = "ems_data:test_verbose"
 
 [project.urls]
 Homepage = "https://github.com/ENERSEM/EMS-sdk"
