@@ -21,7 +21,7 @@ dependencies = [
 dynamic = ["version"]
 
 [project.scripts]
-test = "test_api:test_verbose"
+test = "ems_data:test_verbose"
 
 [project.urls]
 Homepage = "https://github.com/ENERSEM/EMS-sdk"
