@@ -29,4 +29,4 @@ Repository = "https://github.com/ENERSEM/EMS-sdk"
 
 [tool.setuptools]
 packages.find.exclude = ['test*']
-include-package-data = false
+packages.find.include = ['ems_data*']
