@@ -13,7 +13,6 @@ license = {text = "MIT License"}
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
-py_modules = ['ems_data']
 dependencies = [
     "cryptography",
     "PyJWT",
@@ -24,3 +23,6 @@ dynamic = ["version"]
 [project.urls]
 Homepage = "https://github.com/ENERSEM/EMS-sdk"
 Repository = "https://github.com/ENERSEM/EMS-sdk"
+
+[tool.setuptools]
+py-modules = ["ems_data"] # dash, not underscore
