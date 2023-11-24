@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EMS-sdk"
+authors = [
+    {name = "Emanuele Mason", email = "mason@enersem.eu"},
+]
+description = "SDK for EMS"
+requires-python = ">=3.7"
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "cryptography",
+    "PyJWT",
+    "requests"
+]
+dynamic = ["version"]
+
+[project.scripts]
+test = "test_api:test_verbose"
+
+[project.urls]
+Homepage = "https://github.com/ENERSEM/EMS-sdk"
+Repository = "https://github.com/ENERSEM/EMS-sdk"

@@ -105,7 +105,8 @@ def test_verbose():
     assert len(r.json()['messages']) == 0
 
     print("\n################")
-    print("Post new values of multiple parameters of multiple arke... ", end='')
+    print("Post new values of multiple parameters of multiple arke... ",
+          end='')
     url = f"{SERVER}api/data/"
     dt_now = datetime.datetime.now()
     values = [
