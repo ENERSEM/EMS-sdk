@@ -26,7 +26,3 @@ test = "ems_data:test_verbose"
 [project.urls]
 Homepage = "https://github.com/ENERSEM/EMS-sdk"
 Repository = "https://github.com/ENERSEM/EMS-sdk"
-
-[tool.setuptools]
-packages.find.exclude = ['test*']
-packages.find.include = ['ems_data*']
