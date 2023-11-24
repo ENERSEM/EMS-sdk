@@ -5,7 +5,7 @@ import json  # required only for pretty printing the responses
 import os  # required only for reading env variables
 import requests
 
-from ems_data import get_token, COMPANY_NAME
+from ems_data import get_token
 
 
 SERVER: str = os.environ['EMS_SERVER']  # e.g. 'https://test.enersem.it/'
